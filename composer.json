@@ -3,12 +3,10 @@
     "description": "Ethereum web3 interface.",
     "type": "library",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Adnan Hussain Turki",
-            "email": "adnanhussainturki@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "Adnan Hussain Turki",
+        "email": "adnanhussainturki@gmail.com"
+    }],
     "require": {
         "guzzlehttp/guzzle": "^6.3|^7.0",
         "PHP": "^7.2|^8.0",
@@ -21,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Web3\\": "src/"
+            "AdnanHussainTurki\\Web3\\": "src/"
         }
     },
     "autoload-dev": {

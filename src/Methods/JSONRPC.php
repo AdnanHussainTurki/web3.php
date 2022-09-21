@@ -2,14 +2,14 @@
 
 /**
  * This file is part of web3.php package.
- * 
+ *
  * (c) Kuan-Cheng,Lai <alk03073135@gmail.com>
- * 
+ *
  * @author Peter Lai <alk03073135@gmail.com>
  * @license MIT
  */
 
-namespace Web3\Methods;
+namespace AdnanHussainTurki\Web3\Methods;
 
 use InvalidArgumentException;
 use Web3\Methods\IRPC;
@@ -18,35 +18,35 @@ class JSONRPC implements IRPC
 {
     /**
      * id
-     * 
+     *
      * @var int
      */
     protected $id = 0;
 
     /**
      * rpcVersion
-     * 
+     *
      * @var string
      */
     protected $rpcVersion = '2.0';
 
     /**
      * method
-     * 
+     *
      * @var string
      */
     protected $method = '';
 
     /**
      * arguments
-     * 
+     *
      * @var array
      */
     protected $arguments = [];
 
     /**
      * construct
-     * 
+     *
      * @param string $method
      * @param array $arguments
      * @return void
@@ -59,7 +59,7 @@ class JSONRPC implements IRPC
 
     /**
      * get
-     * 
+     *
      * @param string $name
      * @return mixed
      */
@@ -75,7 +75,7 @@ class JSONRPC implements IRPC
 
     /**
      * set
-     * 
+     *
      * @param string $name
      * @param mixed $value
      * @return mixed
@@ -92,7 +92,7 @@ class JSONRPC implements IRPC
 
     /**
      * __toString
-     * 
+     *
      * @return string
      */
     public function __toString()
@@ -104,7 +104,7 @@ class JSONRPC implements IRPC
 
     /**
      * setId
-     * 
+     *
      * @param int $id
      * @return bool
      */
@@ -120,7 +120,7 @@ class JSONRPC implements IRPC
 
     /**
      * getId
-     * 
+     *
      * @return int
      */
     public function getId()
@@ -130,7 +130,7 @@ class JSONRPC implements IRPC
 
     /**
      * getRpcVersion
-     * 
+     *
      * @return string
      */
     public function getRpcVersion()
@@ -140,7 +140,7 @@ class JSONRPC implements IRPC
 
     /**
      * getMethod
-     * 
+     *
      * @return string
      */
     public function getMethod()
@@ -150,7 +150,7 @@ class JSONRPC implements IRPC
 
     /**
      * setArguments
-     * 
+     *
      * @param array $arguments
      * @return bool
      */
@@ -166,7 +166,7 @@ class JSONRPC implements IRPC
 
     /**
      * getArguments
-     * 
+     *
      * @return array
      */
     public function getArguments()
@@ -176,7 +176,7 @@ class JSONRPC implements IRPC
 
     /**
      * toPayload
-     * 
+     *
      * @return array
      */
     public function toPayload()
@@ -203,7 +203,7 @@ class JSONRPC implements IRPC
 
     /**
      * toPayloadString
-     * 
+     *
      * @return string
      */
     public function toPayloadString()

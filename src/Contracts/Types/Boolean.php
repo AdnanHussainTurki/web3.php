@@ -2,14 +2,14 @@
 
 /**
  * This file is part of web3.php package.
- * 
+ *
  * (c) Kuan-Cheng,Lai <alk03073135@gmail.com>
- * 
+ *
  * @author Peter Lai <alk03073135@gmail.com>
  * @license MIT
  */
 
-namespace Web3\Contracts\Types;
+namespace AdnanHussainTurki\Web3\Contracts\Types;
 
 use InvalidArgumentException;
 use Web3\Contracts\SolidityType;
@@ -19,7 +19,7 @@ class Boolean extends SolidityType implements IType
 {
     /**
      * construct
-     * 
+     *
      * @return void
      */
     public function __construct()
@@ -29,7 +29,7 @@ class Boolean extends SolidityType implements IType
 
     /**
      * isType
-     * 
+     *
      * @param string $name
      * @return bool
      */
@@ -40,7 +40,7 @@ class Boolean extends SolidityType implements IType
 
     /**
      * isDynamicType
-     * 
+     *
      * @return bool
      */
     public function isDynamicType()
@@ -50,7 +50,7 @@ class Boolean extends SolidityType implements IType
 
     /**
      * inputFormat
-     * 
+     *
      * @param mixed $value
      * @param string $name
      * @return string
@@ -67,7 +67,7 @@ class Boolean extends SolidityType implements IType
 
     /**
      * outputFormat
-     * 
+     *
      * @param mixed $value
      * @param string $name
      * @return string

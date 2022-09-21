@@ -2,14 +2,14 @@
 
 /**
  * This file is part of web3.php package.
- * 
+ *
  * (c) Kuan-Cheng,Lai <alk03073135@gmail.com>
- * 
+ *
  * @author Peter Lai <alk03073135@gmail.com>
  * @license MIT
  */
 
-namespace Web3\Providers;
+namespace AdnanHussainTurki\Web3\Providers;
 
 use Web3\RequestManagers\RequestManager;
 
@@ -17,42 +17,42 @@ class Provider
 {
     /**
      * requestManager
-     * 
+     *
      * @var \Web3\RequestManagers\RequestManager
      */
     protected $requestManager;
 
     /**
      * isBatch
-     * 
+     *
      * @var bool
      */
     protected $isBatch = false;
 
     /**
      * batch
-     * 
+     *
      * @var array
      */
     protected $batch = [];
 
     /**
      * rpcVersion
-     * 
+     *
      * @var string
      */
     protected $rpcVersion = '2.0';
 
     /**
      * id
-     * 
+     *
      * @var integer
      */
     protected $id = 0;
 
     /**
      * construct
-     * 
+     *
      * @param \Web3\RequestManagers\RequestManager $requestManager
      * @return void
      */
@@ -63,7 +63,7 @@ class Provider
 
     /**
      * get
-     * 
+     *
      * @param string $name
      * @return mixed
      */
@@ -79,7 +79,7 @@ class Provider
 
     /**
      * set
-     * 
+     *
      * @param string $name
      * @param mixed $value
      * @return bool
@@ -96,7 +96,7 @@ class Provider
 
     /**
      * getRequestManager
-     * 
+     *
      * @return \Web3\RequestManagers\RequestManager
      */
     public function getRequestManager()
@@ -106,7 +106,7 @@ class Provider
 
     /**
      * getIsBatch
-     * 
+     *
      * @return bool
      */
     public function getIsBatch()

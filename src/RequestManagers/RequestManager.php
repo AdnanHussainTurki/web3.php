@@ -2,34 +2,34 @@
 
 /**
  * This file is part of web3.php package.
- * 
+ *
  * (c) Kuan-Cheng,Lai <alk03073135@gmail.com>
- * 
+ *
  * @author Peter Lai <alk03073135@gmail.com>
  * @license MIT
  */
 
-namespace Web3\RequestManagers;
+namespace AdnanHussainTurki\Web3\RequestManagers;
 
 class RequestManager
 {
     /**
      * host
-     * 
+     *
      * @var string
      */
     protected $host;
 
     /**
      * timeout
-     * 
+     *
      * @var float
      */
     protected $timeout;
-    
+
     /**
      * construct
-     * 
+     *
      * @param string $host
      * @param float $timeout
      * @return void
@@ -42,7 +42,7 @@ class RequestManager
 
     /**
      * get
-     * 
+     *
      * @param string $name
      * @return mixed
      */
@@ -58,7 +58,7 @@ class RequestManager
 
     /**
      * set
-     * 
+     *
      * @param string $name
      * @param mixed $value
      * @return bool
@@ -75,7 +75,7 @@ class RequestManager
 
     /**
      * getHost
-     * 
+     *
      * @return string
      */
     public function getHost()
@@ -85,7 +85,7 @@ class RequestManager
 
     /**
      * getTimeout
-     * 
+     *
      * @return float
      */
     public function getTimeout()

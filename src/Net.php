@@ -2,14 +2,14 @@
 
 /**
  * This file is part of web3.php package.
- * 
+ *
  * (c) Kuan-Cheng,Lai <alk03073135@gmail.com>
- * 
+ *
  * @author Peter Lai <alk03073135@gmail.com>
  * @license MIT
  */
 
-namespace Web3;
+namespace AdnanHussainTurki\Web3;
 
 use Web3\Providers\Provider;
 use Web3\Providers\HttpProvider;
@@ -27,14 +27,14 @@ class Net
 
     /**
      * methods
-     * 
+     *
      * @var array
      */
     private $methods = [];
 
     /**
      * allowedMethods
-     * 
+     *
      * @var array
      */
     private $allowedMethods = [
@@ -63,7 +63,7 @@ class Net
 
     /**
      * call
-     * 
+     *
      * @param string $name
      * @param array $arguments
      * @return void
@@ -109,7 +109,7 @@ class Net
 
     /**
      * get
-     * 
+     *
      * @param string $name
      * @return mixed
      */
@@ -125,7 +125,7 @@ class Net
 
     /**
      * set
-     * 
+     *
      * @param string $name
      * @param mixed $value
      * @return mixed
@@ -142,7 +142,7 @@ class Net
 
     /**
      * getProvider
-     * 
+     *
      * @return \Web3\Providers\Provider
      */
     public function getProvider()
@@ -152,7 +152,7 @@ class Net
 
     /**
      * setProvider
-     * 
+     *
      * @param \Web3\Providers\Provider $provider
      * @return bool
      */
@@ -167,7 +167,7 @@ class Net
 
     /**
      * batch
-     * 
+     *
      * @param bool $status
      * @return void
      */

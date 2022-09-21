@@ -9,7 +9,7 @@
  * @license MIT
  */
 
-namespace Web3\RequestManagers;
+namespace AdnanHussainTurki\Web3\RequestManagers;
 
 use InvalidArgumentException;
 use Psr\Http\Message\StreamInterface;

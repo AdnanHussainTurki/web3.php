@@ -2,14 +2,14 @@
 
 /**
  * This file is part of web3.php package.
- * 
+ *
  * (c) Kuan-Cheng,Lai <alk03073135@gmail.com>
- * 
+ *
  * @author Peter Lai <alk03073135@gmail.com>
  * @license MIT
  */
 
-namespace Web3\Providers;
+namespace AdnanHussainTurki\Web3\Providers;
 
 use Web3\Providers\Provider;
 use Web3\Providers\IProvider;
@@ -19,14 +19,14 @@ class HttpProvider extends Provider implements IProvider
 {
     /**
      * methods
-     * 
+     *
      * @var array
      */
     protected $methods = [];
 
     /**
      * construct
-     * 
+     *
      * @param \Web3\RequestManagers\RequestManager $requestManager
      * @return void
      */
@@ -37,7 +37,7 @@ class HttpProvider extends Provider implements IProvider
 
     /**
      * send
-     * 
+     *
      * @param \Web3\Methods\Method $method
      * @param callable $callback
      * @return void
@@ -68,7 +68,7 @@ class HttpProvider extends Provider implements IProvider
 
     /**
      * batch
-     * 
+     *
      * @param bool $status
      * @return void
      */
@@ -81,7 +81,7 @@ class HttpProvider extends Provider implements IProvider
 
     /**
      * execute
-     * 
+     *
      * @param callable $callback
      * @return void
      */

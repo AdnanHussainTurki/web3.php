@@ -2,14 +2,14 @@
 
 /**
  * This file is part of web3.php package.
- * 
+ *
  * (c) Kuan-Cheng,Lai <alk03073135@gmail.com>
- * 
+ *
  * @author Peter Lai <alk03073135@gmail.com>
  * @license MIT
  */
 
-namespace Web3\Methods\Eth;
+namespace AdnanHussainTurki\Web3\Methods\Eth;
 
 use InvalidArgumentException;
 use Web3\Methods\EthMethod;
@@ -24,7 +24,7 @@ class GetStorageAt extends EthMethod
 {
     /**
      * validators
-     * 
+     *
      * @var array
      */
     protected $validators = [
@@ -35,7 +35,7 @@ class GetStorageAt extends EthMethod
 
     /**
      * inputFormatters
-     * 
+     *
      * @var array
      */
     protected $inputFormatters = [
@@ -44,14 +44,14 @@ class GetStorageAt extends EthMethod
 
     /**
      * outputFormatters
-     * 
+     *
      * @var array
      */
     protected $outputFormatters = [];
 
     /**
      * defaultValues
-     * 
+     *
      * @var array
      */
     protected $defaultValues = [
@@ -60,7 +60,7 @@ class GetStorageAt extends EthMethod
 
     /**
      * construct
-     * 
+     *
      * @param string $method
      * @param array $arguments
      * @return void

@@ -2,14 +2,14 @@
 
 /**
  * This file is part of web3.php package.
- * 
+ *
  * (c) Kuan-Cheng,Lai <alk03073135@gmail.com>
- * 
+ *
  * @author Peter Lai <alk03073135@gmail.com>
  * @license MIT
  */
 
-namespace Web3\Contracts;
+namespace AdnanHussainTurki\Web3\Contracts;
 
 use InvalidArgumentException;
 use stdClass;
@@ -20,14 +20,14 @@ class Ethabi
 {
     /**
      * types
-     * 
+     *
      * @var array
      */
     protected $types = [];
 
     /**
      * construct
-     * 
+     *
      * @param array $types
      * @return void
      */
@@ -41,7 +41,7 @@ class Ethabi
 
     /**
      * get
-     * 
+     *
      * @param string $name
      * @return mixed
      */
@@ -57,7 +57,7 @@ class Ethabi
 
     /**
      * set
-     * 
+     *
      * @param string $name
      * @param mixed $value
      * @return mixed
@@ -74,19 +74,19 @@ class Ethabi
 
     /**
      * callStatic
-     * 
+     *
      * @param string $name
      * @param array $arguments
      * @return void
      */
     public static function __callStatic($name, $arguments)
     {
-        // 
+        //
     }
 
     /**
      * encodeFunctionSignature
-     * 
+     *
      * @param string|stdClass|array $functionName
      * @return string
      */
@@ -101,7 +101,7 @@ class Ethabi
     /**
      * encodeEventSignature
      * TODO: Fix same event name with different params
-     * 
+     *
      * @param string|stdClass|array $functionName
      * @return string
      */
@@ -115,7 +115,7 @@ class Ethabi
 
     /**
      * encodeParameter
-     * 
+     *
      * @param string $type
      * @param mixed $param
      * @return string
@@ -130,7 +130,7 @@ class Ethabi
 
     /**
      * encodeParameters
-     * 
+     *
      * @param stdClass|array $types
      * @param array $params
      * @return string
@@ -178,7 +178,7 @@ class Ethabi
 
     /**
      * decodeParameter
-     * 
+     *
      * @param string $type
      * @param mixed $param
      * @return string
@@ -193,7 +193,7 @@ class Ethabi
 
     /**
      * decodeParameters
-     * 
+     *
      * @param stdClass|array $type
      * @param string $param
      * @return string
@@ -247,7 +247,7 @@ class Ethabi
 
     /**
      * getSolidityTypes
-     * 
+     *
      * @param array $types
      * @return array
      */
@@ -282,7 +282,7 @@ class Ethabi
 
     /**
      * encodeWithOffset
-     * 
+     *
      * @param string $type
      * @param \Web3\Contracts\SolidityType $solidityType
      * @param mixed $encode
@@ -353,7 +353,7 @@ class Ethabi
 
     /**
      * encodeMultiWithOffset
-     * 
+     *
      * @param array $types
      * @param array $solidityTypes
      * @param array $encodes
