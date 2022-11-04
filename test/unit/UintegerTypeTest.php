@@ -4,7 +4,7 @@ namespace Test\Unit;
 
 use InvalidArgumentException;
 use Test\TestCase;
-use Web3\Contracts\Types\Uinteger;
+use AdnanHussainTurki\Web3\Contracts\Types\Uinteger;
 
 class UintegerTypeTest extends TestCase
 {

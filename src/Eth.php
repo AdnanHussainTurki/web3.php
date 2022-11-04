@@ -11,10 +11,10 @@
 
 namespace AdnanHussainTurki\Web3;
 
-use Web3\Providers\Provider;
-use Web3\Providers\HttpProvider;
-use Web3\RequestManagers\RequestManager;
-use Web3\RequestManagers\HttpRequestManager;
+use AdnanHussainTurki\Web3\Providers\Provider;
+use AdnanHussainTurki\Web3\Providers\HttpProvider;
+use AdnanHussainTurki\Web3\RequestManagers\RequestManager;
+use AdnanHussainTurki\Web3\RequestManagers\HttpRequestManager;
 
 class Eth
 {
@@ -77,8 +77,7 @@ class Eth
         $class = explode('\\', get_class());
 
         if (preg_match('/^[a-zA-Z0-9]+$/', $name) === 1) {
-            $method = strtolower($class[1]) . '_' . $name;
-
+            $method = strtolower($class[2]) . '_' . $name;
             if (!in_array($method, $this->allowedMethods)) {
                 throw new \RuntimeException('Unallowed rpc method: ' . $method);
             }
@@ -93,7 +92,7 @@ class Eth
             }
             if (!array_key_exists($method, $this->methods)) {
                 // new the method
-                $methodClass = sprintf("\Web3\Methods\%s\%s", ucfirst($class[1]), ucfirst($name));
+                $methodClass = sprintf("AdnanHussainTurki\Web3\Methods\%s\%s", ucfirst($class[2]), ucfirst($name));
                 $methodObject = new $methodClass($method, $arguments);
                 $this->methods[$method] = $methodObject;
             } else {

@@ -3,13 +3,13 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Providers\HttpProvider;
-use Web3\RequestManagers\RequestManager;
-use Web3\RequestManagers\HttpRequestManager;
-use Web3\Contract;
-use Web3\Utils;
-use Web3\Contracts\Ethabi;
-use Web3\Formatters\IntegerFormatter;
+use AdnanHussainTurki\Web3\Providers\HttpProvider;
+use AdnanHussainTurki\Web3\RequestManagers\RequestManager;
+use AdnanHussainTurki\Web3\RequestManagers\HttpRequestManager;
+use AdnanHussainTurki\Web3\Contract;
+use AdnanHussainTurki\Web3\Utils;
+use AdnanHussainTurki\Web3\Contracts\Ethabi;
+use AdnanHussainTurki\Web3\Formatters\IntegerFormatter;
 use phpseclib3\Math\BigInteger as BigNumber;
 
 class ContractTest extends TestCase

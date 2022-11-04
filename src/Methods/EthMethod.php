@@ -13,8 +13,8 @@ namespace AdnanHussainTurki\Web3\Methods;
 
 use InvalidArgumentException;
 use RuntimeException;
-use Web3\Methods\IMethod;
-use Web3\Methods\JSONRPC;
+use AdnanHussainTurki\Web3\Methods\IMethod;
+use AdnanHussainTurki\Web3\Methods\JSONRPC;
 
 class EthMethod extends JSONRPC implements IMethod
 {

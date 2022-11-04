@@ -12,8 +12,8 @@
 namespace AdnanHussainTurki\Web3\Methods\Shh;
 
 use InvalidArgumentException;
-use Web3\Methods\EthMethod;
-use Web3\Validators\IdentityValidator;
+use AdnanHussainTurki\Web3\Methods\EthMethod;
+use AdnanHussainTurki\Web3\Validators\IdentityValidator;
 
 class AddToGroup extends EthMethod
 {

@@ -4,10 +4,10 @@ namespace Test\Unit;
 
 use RuntimeException;
 use Test\TestCase;
-use Web3\Providers\HttpProvider;
-use Web3\RequestManagers\RequestManager;
-use Web3\RequestManagers\HttpRequestManager;
-use Web3\Shh;
+use AdnanHussainTurki\Web3\Providers\HttpProvider;
+use AdnanHussainTurki\Web3\RequestManagers\RequestManager;
+use AdnanHussainTurki\Web3\RequestManagers\HttpRequestManager;
+use AdnanHussainTurki\Web3\Shh;
 
 class ShhTest extends TestCase
 {

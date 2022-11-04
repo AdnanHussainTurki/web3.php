@@ -3,7 +3,7 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Validators\FilterValidator;
+use AdnanHussainTurki\Web3\Validators\FilterValidator;
 
 class FilterValidatorTest extends TestCase
 {

@@ -11,8 +11,8 @@
 
 namespace AdnanHussainTurki\Web3\Contracts;
 
-use Web3\Utils;
-use Web3\Formatters\IntegerFormatter;
+use AdnanHussainTurki\Web3\Utils;
+use AdnanHussainTurki\Web3\Formatters\IntegerFormatter;
 
 class SolidityType
 {

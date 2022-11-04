@@ -17,8 +17,8 @@ use RuntimeException as RPCException;
 use Psr\Http\Message\ResponseInterface;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Client;
-use Web3\RequestManagers\RequestManager;
-use Web3\RequestManagers\IRequestManager;
+use AdnanHussainTurki\Web3\RequestManagers\RequestManager;
+use AdnanHussainTurki\Web3\RequestManagers\IRequestManager;
 
 class HttpRequestManager extends RequestManager implements IRequestManager
 {

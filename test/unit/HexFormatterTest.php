@@ -3,7 +3,7 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Formatters\HexFormatter;
+use AdnanHussainTurki\Web3\Formatters\HexFormatter;
 
 class HexFormatterTest extends TestCase
 {

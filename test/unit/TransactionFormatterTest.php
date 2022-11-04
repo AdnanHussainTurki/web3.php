@@ -3,7 +3,7 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Formatters\TransactionFormatter;
+use AdnanHussainTurki\Web3\Formatters\TransactionFormatter;
 
 class TransactionFormatterTest extends TestCase
 {

@@ -11,7 +11,7 @@
 
 namespace AdnanHussainTurki\Web3\Validators;
 
-use Web3\Validators\IValidator;
+use AdnanHussainTurki\Web3\Validators\IValidator;
 
 class NonceValidator
 {

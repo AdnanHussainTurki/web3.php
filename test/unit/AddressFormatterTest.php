@@ -3,7 +3,7 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Formatters\AddressFormatter;
+use AdnanHussainTurki\Web3\Formatters\AddressFormatter;
 
 class AddressFormatterTest extends TestCase
 {

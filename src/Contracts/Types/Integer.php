@@ -11,11 +11,11 @@
 
 namespace AdnanHussainTurki\Web3\Contracts\Types;
 
-use Web3\Utils;
-use Web3\Contracts\SolidityType;
-use Web3\Contracts\Types\IType;
-use Web3\Formatters\IntegerFormatter;
-use Web3\Formatters\BigNumberFormatter;
+use AdnanHussainTurki\Web3\Utils;
+use AdnanHussainTurki\Web3\Contracts\SolidityType;
+use AdnanHussainTurki\Web3\Contracts\Types\IType;
+use AdnanHussainTurki\Web3\Formatters\IntegerFormatter;
+use AdnanHussainTurki\Web3\Formatters\BigNumberFormatter;
 
 class Integer extends SolidityType implements IType
 {

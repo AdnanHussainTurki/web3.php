@@ -12,13 +12,13 @@
 namespace AdnanHussainTurki\Web3\Methods\Personal;
 
 use InvalidArgumentException;
-use Web3\Methods\EthMethod;
-use Web3\Validators\AddressValidator;
-use Web3\Validators\StringValidator;
-use Web3\Validators\QuantityValidator;
-use Web3\Formatters\AddressFormatter;
-use Web3\Formatters\StringFormatter;
-use Web3\Formatters\NumberFormatter;
+use AdnanHussainTurki\Web3\Methods\EthMethod;
+use AdnanHussainTurki\Web3\Validators\AddressValidator;
+use AdnanHussainTurki\Web3\Validators\StringValidator;
+use AdnanHussainTurki\Web3\Validators\QuantityValidator;
+use AdnanHussainTurki\Web3\Formatters\AddressFormatter;
+use AdnanHussainTurki\Web3\Formatters\StringFormatter;
+use AdnanHussainTurki\Web3\Formatters\NumberFormatter;
 
 class UnlockAccount extends EthMethod
 {

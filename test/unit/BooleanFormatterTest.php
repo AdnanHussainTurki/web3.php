@@ -4,7 +4,7 @@ namespace Test\Unit;
 
 use InvalidArgumentException;
 use Test\TestCase;
-use Web3\Formatters\BooleanFormatter;
+use AdnanHussainTurki\Web3\Formatters\BooleanFormatter;
 
 class BooleanFormatterTest extends TestCase
 {

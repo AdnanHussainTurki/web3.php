@@ -11,8 +11,8 @@
 
 namespace AdnanHussainTurki\Web3\Validators;
 
-use Web3\Validators\IValidator;
-use Web3\Utils;
+use AdnanHussainTurki\Web3\Validators\IValidator;
+use AdnanHussainTurki\Web3\Utils;
 
 class TagValidator implements IValidator
 {

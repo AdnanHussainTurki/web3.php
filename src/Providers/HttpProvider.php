@@ -11,9 +11,9 @@
 
 namespace AdnanHussainTurki\Web3\Providers;
 
-use Web3\Providers\Provider;
-use Web3\Providers\IProvider;
-use Web3\RequestManagers\RequestManager;
+use AdnanHussainTurki\Web3\Providers\Provider;
+use AdnanHussainTurki\Web3\Providers\IProvider;
+use AdnanHussainTurki\Web3\RequestManagers\RequestManager;
 
 class HttpProvider extends Provider implements IProvider
 {

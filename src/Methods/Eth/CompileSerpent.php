@@ -12,9 +12,9 @@
 namespace AdnanHussainTurki\Web3\Methods\Eth;
 
 use InvalidArgumentException;
-use Web3\Methods\EthMethod;
-use Web3\Validators\StringValidator;
-use Web3\Formatters\StringFormatter;
+use AdnanHussainTurki\Web3\Methods\EthMethod;
+use AdnanHussainTurki\Web3\Validators\StringValidator;
+use AdnanHussainTurki\Web3\Formatters\StringFormatter;
 
 class CompileSerpent extends EthMethod
 {

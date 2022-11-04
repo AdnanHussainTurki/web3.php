@@ -3,7 +3,7 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Validators\NonceValidator;
+use AdnanHussainTurki\Web3\Validators\NonceValidator;
 
 class NonceValidatorTest extends TestCase
 {

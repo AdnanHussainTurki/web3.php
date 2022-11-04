@@ -3,7 +3,7 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Validators\HexValidator;
+use AdnanHussainTurki\Web3\Validators\HexValidator;
 
 class HexValidatorTest extends TestCase
 {

@@ -12,9 +12,9 @@
 namespace AdnanHussainTurki\Web3\Methods\Eth;
 
 use InvalidArgumentException;
-use Web3\Methods\EthMethod;
-use Web3\Validators\QuantityValidator;
-use Web3\Formatters\QuantityFormatter;
+use AdnanHussainTurki\Web3\Methods\EthMethod;
+use AdnanHussainTurki\Web3\Validators\QuantityValidator;
+use AdnanHussainTurki\Web3\Formatters\QuantityFormatter;
 
 class GetFilterChanges extends EthMethod
 {

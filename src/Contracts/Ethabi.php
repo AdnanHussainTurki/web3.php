@@ -13,8 +13,8 @@ namespace AdnanHussainTurki\Web3\Contracts;
 
 use InvalidArgumentException;
 use stdClass;
-use Web3\Utils;
-use Web3\Formatters\IntegerFormatter;
+use AdnanHussainTurki\Web3\Utils;
+use AdnanHussainTurki\Web3\Formatters\IntegerFormatter;
 
 class Ethabi
 {
@@ -137,6 +137,7 @@ class Ethabi
      */
     public function encodeParameters($types, $params)
     {
+
         // change json to array
         if ($types instanceof stdClass && isset($types->inputs)) {
             $types = Utils::jsonToArray($types, 2);

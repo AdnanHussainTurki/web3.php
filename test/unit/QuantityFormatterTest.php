@@ -3,7 +3,7 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Formatters\QuantityFormatter;
+use AdnanHussainTurki\Web3\Formatters\QuantityFormatter;
 
 class QuantityFormatterTest extends TestCase
 {

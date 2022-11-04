@@ -12,8 +12,8 @@
 namespace AdnanHussainTurki\Web3\Methods\Net;
 
 use InvalidArgumentException;
-use Web3\Methods\EthMethod;
-use Web3\Formatters\BigNumberFormatter;
+use AdnanHussainTurki\Web3\Methods\EthMethod;
+use AdnanHussainTurki\Web3\Formatters\BigNumberFormatter;
 
 class PeerCount extends EthMethod
 {

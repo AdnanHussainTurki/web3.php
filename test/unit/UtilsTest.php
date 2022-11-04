@@ -6,8 +6,8 @@ use InvalidArgumentException;
 use stdClass;
 use Test\TestCase;
 use phpseclib3\Math\BigInteger as BigNumber;
-use Web3\Utils;
-use Web3\Contract;
+use AdnanHussainTurki\Web3\Utils;
+use AdnanHussainTurki\Web3\Contract;
 
 class UtilsTest extends TestCase
 {

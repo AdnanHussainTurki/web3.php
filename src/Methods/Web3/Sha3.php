@@ -12,9 +12,9 @@
 namespace AdnanHussainTurki\Web3\Methods\Web3;
 
 use InvalidArgumentException;
-use Web3\Methods\EthMethod;
-use Web3\Formatters\HexFormatter;
-use Web3\Validators\StringValidator;
+use AdnanHussainTurki\Web3\Methods\EthMethod;
+use AdnanHussainTurki\Web3\Formatters\HexFormatter;
+use AdnanHussainTurki\Web3\Validators\StringValidator;
 
 class Sha3 extends EthMethod
 {

@@ -12,12 +12,12 @@
 namespace AdnanHussainTurki\Web3\Methods\Eth;
 
 use InvalidArgumentException;
-use Web3\Methods\EthMethod;
-use Web3\Validators\QuantityValidator;
-use Web3\Validators\TagValidator;
-use Web3\Validators\BooleanValidator;
-use Web3\Formatters\OptionalQuantityFormatter;
-use Web3\Formatters\BooleanFormatter;
+use AdnanHussainTurki\Web3\Methods\EthMethod;
+use AdnanHussainTurki\Web3\Validators\QuantityValidator;
+use AdnanHussainTurki\Web3\Validators\TagValidator;
+use AdnanHussainTurki\Web3\Validators\BooleanValidator;
+use AdnanHussainTurki\Web3\Formatters\OptionalQuantityFormatter;
+use AdnanHussainTurki\Web3\Formatters\BooleanFormatter;
 
 class GetBlockByNumber extends EthMethod
 {

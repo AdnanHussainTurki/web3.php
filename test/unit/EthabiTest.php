@@ -4,15 +4,15 @@ namespace Test\Unit;
 
 use InvalidArgumentException;
 use Test\TestCase;
-use Web3\Utils;
-use Web3\Contracts\Ethabi;
-use Web3\Contracts\Types\Address;
-use Web3\Contracts\Types\Boolean;
-use Web3\Contracts\Types\Bytes;
-use Web3\Contracts\Types\DynamicBytes;
-use Web3\Contracts\Types\Integer;
-use Web3\Contracts\Types\Str;
-use Web3\Contracts\Types\Uinteger;
+use AdnanHussainTurki\Web3\Utils;
+use AdnanHussainTurki\Web3\Contracts\Ethabi;
+use AdnanHussainTurki\Web3\Contracts\Types\Address;
+use AdnanHussainTurki\Web3\Contracts\Types\Boolean;
+use AdnanHussainTurki\Web3\Contracts\Types\Bytes;
+use AdnanHussainTurki\Web3\Contracts\Types\DynamicBytes;
+use AdnanHussainTurki\Web3\Contracts\Types\Integer;
+use AdnanHussainTurki\Web3\Contracts\Types\Str;
+use AdnanHussainTurki\Web3\Contracts\Types\Uinteger;
 
 class EthabiTest extends TestCase
 {

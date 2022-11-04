@@ -3,7 +3,7 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Validators\PostValidator;
+use AdnanHussainTurki\Web3\Validators\PostValidator;
 
 class PostValidatorTest extends TestCase
 {

@@ -3,7 +3,7 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Validators\BooleanValidator;
+use AdnanHussainTurki\Web3\Validators\BooleanValidator;
 
 class BooleanValidatorTest extends TestCase
 {

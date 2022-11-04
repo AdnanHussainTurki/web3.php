@@ -12,10 +12,10 @@
 namespace AdnanHussainTurki\Web3\Formatters;
 
 use InvalidArgumentException;
-use Web3\Utils;
-use Web3\Formatters\IFormatter;
-use Web3\Formatters\HexFormatter;
-use Web3\Formatters\QuantityFormatter;
+use AdnanHussainTurki\Web3\Utils;
+use AdnanHussainTurki\Web3\Formatters\IFormatter;
+use AdnanHussainTurki\Web3\Formatters\HexFormatter;
+use AdnanHussainTurki\Web3\Formatters\QuantityFormatter;
 
 class TransactionFormatter implements IFormatter
 {

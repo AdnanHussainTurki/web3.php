@@ -11,10 +11,10 @@
 
 namespace AdnanHussainTurki\Web3;
 
-use Web3\Providers\Provider;
-use Web3\Providers\HttpProvider;
-use Web3\RequestManagers\RequestManager;
-use Web3\RequestManagers\HttpRequestManager;
+use AdnanHussainTurki\Web3\Providers\Provider;
+use AdnanHussainTurki\Web3\Providers\HttpProvider;
+use AdnanHussainTurki\Web3\RequestManagers\RequestManager;
+use AdnanHussainTurki\Web3\RequestManagers\HttpRequestManager;
 
 class Personal
 {

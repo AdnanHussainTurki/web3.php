@@ -3,7 +3,7 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Validators\IdentityValidator;
+use AdnanHussainTurki\Web3\Validators\IdentityValidator;
 
 class IdentityValidatorTest extends TestCase
 {

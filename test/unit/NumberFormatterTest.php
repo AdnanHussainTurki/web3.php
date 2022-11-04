@@ -3,7 +3,7 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Formatters\NumberFormatter;
+use AdnanHussainTurki\Web3\Formatters\NumberFormatter;
 
 class NumberFormatterTest extends TestCase
 {

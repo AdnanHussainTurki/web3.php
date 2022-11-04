@@ -3,7 +3,7 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Formatters\PostFormatter;
+use AdnanHussainTurki\Web3\Formatters\PostFormatter;
 
 class PostFormatterTest extends TestCase
 {

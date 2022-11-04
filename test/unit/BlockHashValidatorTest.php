@@ -3,7 +3,7 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Validators\BlockHashValidator;
+use AdnanHussainTurki\Web3\Validators\BlockHashValidator;
 
 class BlockHashValidatorTest extends TestCase
 {

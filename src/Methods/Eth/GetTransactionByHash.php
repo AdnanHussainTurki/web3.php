@@ -12,9 +12,9 @@
 namespace AdnanHussainTurki\Web3\Methods\Eth;
 
 use InvalidArgumentException;
-use Web3\Methods\EthMethod;
-use Web3\Validators\BlockHashValidator;
-use Web3\Formatters\HexFormatter;
+use AdnanHussainTurki\Web3\Methods\EthMethod;
+use AdnanHussainTurki\Web3\Validators\BlockHashValidator;
+use AdnanHussainTurki\Web3\Formatters\HexFormatter;
 
 class GetTransactionByHash extends EthMethod
 {

@@ -4,7 +4,7 @@ namespace Test\Unit;
 
 use InvalidArgumentException;
 use Test\TestCase;
-use Web3\Contracts\Types\Bytes;
+use AdnanHussainTurki\Web3\Contracts\Types\Bytes;
 
 class BytesTypeTest extends TestCase
 {

@@ -11,15 +11,15 @@
 
 namespace AdnanHussainTurki\Web3;
 
-use Web3\Eth;
-use Web3\Net;
-use Web3\Personal;
-use Web3\Shh;
-use Web3\Utils;
-use Web3\Providers\Provider;
-use Web3\Providers\HttpProvider;
-use Web3\RequestManagers\RequestManager;
-use Web3\RequestManagers\HttpRequestManager;
+use AdnanHussainTurki\Web3\Eth;
+use AdnanHussainTurki\Web3\Net;
+use AdnanHussainTurki\Web3\Personal;
+use AdnanHussainTurki\Web3\Shh;
+use AdnanHussainTurki\Web3\Utils;
+use AdnanHussainTurki\Web3\Providers\Provider;
+use AdnanHussainTurki\Web3\Providers\HttpProvider;
+use AdnanHussainTurki\Web3\RequestManagers\RequestManager;
+use AdnanHussainTurki\Web3\RequestManagers\HttpRequestManager;
 
 class Web3
 {

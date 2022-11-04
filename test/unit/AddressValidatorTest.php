@@ -3,7 +3,7 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Validators\AddressValidator;
+use AdnanHussainTurki\Web3\Validators\AddressValidator;
 
 class AddressValidatorTest extends TestCase
 {

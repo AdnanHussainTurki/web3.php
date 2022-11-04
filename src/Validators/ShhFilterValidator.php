@@ -11,10 +11,10 @@
 
 namespace AdnanHussainTurki\Web3\Validators;
 
-use Web3\Validators\IValidator;
-use Web3\Validators\QuantityValidator;
-use Web3\Validators\HexValidator;
-use Web3\Validators\IdentityValidator;
+use AdnanHussainTurki\Web3\Validators\IValidator;
+use AdnanHussainTurki\Web3\Validators\QuantityValidator;
+use AdnanHussainTurki\Web3\Validators\HexValidator;
+use AdnanHussainTurki\Web3\Validators\IdentityValidator;
 
 class ShhFilterValidator
 {

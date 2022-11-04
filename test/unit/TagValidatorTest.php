@@ -3,7 +3,7 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Validators\TagValidator;
+use AdnanHussainTurki\Web3\Validators\TagValidator;
 
 class TagValidatorTest extends TestCase
 {

@@ -4,7 +4,7 @@ namespace Test\Unit;
 
 use InvalidArgumentException;
 use Test\TestCase;
-use Web3\Contracts\Types\DynamicBytes;
+use AdnanHussainTurki\Web3\Contracts\Types\DynamicBytes;
 
 class DynamicBytesTypeTest extends TestCase
 {

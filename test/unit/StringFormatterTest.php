@@ -3,7 +3,7 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Formatters\StringFormatter;
+use AdnanHussainTurki\Web3\Formatters\StringFormatter;
 
 class StringFormatterTest extends TestCase
 {

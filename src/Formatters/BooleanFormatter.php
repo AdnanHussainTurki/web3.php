@@ -12,8 +12,8 @@
 namespace AdnanHussainTurki\Web3\Formatters;
 
 use InvalidArgumentException;
-use Web3\Utils;
-use Web3\Formatters\IFormatter;
+use AdnanHussainTurki\Web3\Utils;
+use AdnanHussainTurki\Web3\Formatters\IFormatter;
 
 class BooleanFormatter implements IFormatter
 {

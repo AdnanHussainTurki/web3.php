@@ -3,7 +3,7 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Validators\QuantityValidator;
+use AdnanHussainTurki\Web3\Validators\QuantityValidator;
 
 class QuantityValidatorTest extends TestCase
 {

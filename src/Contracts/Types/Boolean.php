@@ -12,8 +12,8 @@
 namespace AdnanHussainTurki\Web3\Contracts\Types;
 
 use InvalidArgumentException;
-use Web3\Contracts\SolidityType;
-use Web3\Contracts\Types\IType;
+use AdnanHussainTurki\Web3\Contracts\SolidityType;
+use AdnanHussainTurki\Web3\Contracts\Types\IType;
 
 class Boolean extends SolidityType implements IType
 {

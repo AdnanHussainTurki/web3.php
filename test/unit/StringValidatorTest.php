@@ -3,7 +3,7 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Validators\StringValidator;
+use AdnanHussainTurki\Web3\Validators\StringValidator;
 
 class StringValidatorTest extends TestCase
 {

@@ -3,7 +3,7 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Validators\CallValidator;
+use AdnanHussainTurki\Web3\Validators\CallValidator;
 
 class CallValidatorTest extends TestCase
 {

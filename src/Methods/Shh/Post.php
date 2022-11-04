@@ -12,9 +12,9 @@
 namespace AdnanHussainTurki\Web3\Methods\Shh;
 
 use InvalidArgumentException;
-use Web3\Methods\EthMethod;
-use Web3\Formatters\PostFormatter;
-use Web3\Validators\PostValidator;
+use AdnanHussainTurki\Web3\Methods\EthMethod;
+use AdnanHussainTurki\Web3\Formatters\PostFormatter;
+use AdnanHussainTurki\Web3\Validators\PostValidator;
 
 class Post extends EthMethod
 {

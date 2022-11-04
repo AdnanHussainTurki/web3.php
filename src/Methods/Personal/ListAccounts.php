@@ -12,7 +12,7 @@
 namespace AdnanHussainTurki\Web3\Methods\Personal;
 
 use InvalidArgumentException;
-use Web3\Methods\EthMethod;
+use AdnanHussainTurki\Web3\Methods\EthMethod;
 
 class ListAccounts extends EthMethod
 {

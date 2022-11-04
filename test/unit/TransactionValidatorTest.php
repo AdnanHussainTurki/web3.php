@@ -3,7 +3,7 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Validators\TransactionValidator;
+use AdnanHussainTurki\Web3\Validators\TransactionValidator;
 
 class TransactionValidatorTest extends TestCase
 {

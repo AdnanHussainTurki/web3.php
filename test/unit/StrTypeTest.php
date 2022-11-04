@@ -4,7 +4,7 @@ namespace Test\Unit;
 
 use InvalidArgumentException;
 use Test\TestCase;
-use Web3\Contracts\Types\Str;
+use AdnanHussainTurki\Web3\Contracts\Types\Str;
 
 class StrTypeTest extends TestCase
 {

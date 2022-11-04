@@ -12,7 +12,7 @@
 namespace AdnanHussainTurki\Web3\Methods;
 
 use InvalidArgumentException;
-use Web3\Methods\IRPC;
+use AdnanHussainTurki\Web3\Methods\IRPC;
 
 class JSONRPC implements IRPC
 {

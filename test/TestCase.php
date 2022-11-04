@@ -3,7 +3,7 @@
 namespace Test;
 
 use \PHPUnit\Framework\TestCase as BaseTestCase;
-use Web3\Web3;
+use AdnanHussainTurki\Web3\Web3;
 
 class TestCase extends BaseTestCase
 {

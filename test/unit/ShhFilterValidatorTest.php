@@ -3,7 +3,7 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Validators\ShhFilterValidator;
+use AdnanHussainTurki\Web3\Validators\ShhFilterValidator;
 
 class ShhFilterValidatorTest extends TestCase
 {

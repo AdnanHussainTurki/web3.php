@@ -11,7 +11,7 @@
 
 namespace AdnanHussainTurki\Web3\Providers;
 
-use Web3\RequestManagers\RequestManager;
+use AdnanHussainTurki\Web3\RequestManagers\RequestManager;
 
 class Provider
 {

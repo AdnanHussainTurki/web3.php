@@ -12,7 +12,7 @@
 namespace AdnanHussainTurki\Web3\Methods\Net;
 
 use InvalidArgumentException;
-use Web3\Methods\EthMethod;
+use AdnanHussainTurki\Web3\Methods\EthMethod;
 
 class Version extends EthMethod
 {
